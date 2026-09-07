@@ -1,0 +1,65 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# ---------- 依赖与虚拟环境 ----------
+.venv/
+venv/
+env/
+.Python
+
+# ---------- 密钥、用户数据、环境 ----------
+.env
+.env.*
+!.env.example
+dist/.env
+
+# ---------- 打包产物（包含 25MB exe） ----------
+build/
+dist/
+*.exe
+*.pkg
+*.zip
+
+# ---------- 临时/调试脚本与输出 ----------
+# 以 _ 开头的脚本多为一次性调试代码
+_*.py
+_*.txt
+out.txt
+_*.eps
+canvas_*.png
+canvas_dump.eps
+ap_*.eps
+_test_ref.png
+
+# ---------- IDE / 编辑器 ----------
+.codebuddy/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---------- 日志 / 临时文件 ----------
+*.log
+*.tmp
+*.bak
+*.pyz
+*.toc
+
+# ---------- 调试截图（保留 ui_preview.png / ui_video_tab.png / app_icon.png） ----------
+generated-images/
+race_theme_*.png
+theme_*.png
+exe_actual.png
+repro*.png
+diag_evt_*.png
+
+# ---------- 数据目录（用户运行产生） ----------
+F:/AgnesGeneratorData/
+AgnesGeneratorData/
