@@ -292,6 +292,14 @@ Agnes 视频队列公共资源紧张时会返回 `video_queue_full`(503) 或 `ra
 
 ---
 
+## 后续更新方向
+
+1.实现自动化工作流功能(未来目标)
+2.实现ai自动化生成剧本的功能(下一步更新),预计使用deepseek登国产大模型配置
+3.ui优化
+
+---
+
 <a name="english"></a>
 
 ## English Summary
