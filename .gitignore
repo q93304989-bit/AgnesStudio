@@ -63,3 +63,11 @@ diag_evt_*.png
 # ---------- 数据目录（用户运行产生） ----------
 F:/AgnesGeneratorData/
 AgnesGeneratorData/
+
+# ---------- 宣传视频渲染产物（保留源码 DESIGN.md 与 src/） ----------
+docs/promo/node_modules/
+docs/promo/out/
+docs/promo/.remotion-cache/
+# 留 docs/promo/package-lock.json（lockfile 入库），但排除渲染产物
+# ---------- WorkBuddy 工作区（Agent 内部记忆，不入库） ----------
+.workbuddy/

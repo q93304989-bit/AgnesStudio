@@ -143,6 +143,18 @@ python main.py
 |:---:|:---:|
 | ![图片生成页](ui_preview.png) | ![视频生成页](ui_video_tab.png) |
 
+## 🎬 宣传视频
+
+30 秒产品宣传片（1920×1080 @ 30fps），成片与渲染工程都在 [`docs/promo/`](docs/promo/)：
+
+```bash
+cd docs/promo
+npm install
+npx remotion render src/index.ts AgnesPromo out/promo.mp4
+```
+
+> 用 [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) 制作：Remotion + 真实界面截图 + 2.5D 运镜 + 节奏卡点。设计说明见 [`docs/promo/DESIGN.md`](docs/promo/DESIGN.md)。
+
 ---
 
 ## 支持的参数
@@ -289,14 +301,6 @@ Agnes 视频队列公共资源紧张时会返回 `video_queue_full`(503) 或 `ra
 - [Agnes AI](https://www.agnes-ai.com) —— 提供学生也能用的免费 / 低价多模态 API。
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) —— 让 Tk 也能有现代质感。
 - 所有提 PR / Star / Issue 的人。
-
----
-
-## 后续更新方向
-
-1.实现自动化工作流功能(未来目标);
-2.实现ai自动化生成剧本的功能(下一步更新),预计使用deepseek登国产大模型配置;
-3.ui优化。
 
 ---
 
