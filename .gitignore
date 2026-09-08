@@ -71,3 +71,6 @@ docs/promo/.remotion-cache/
 # 留 docs/promo/package-lock.json（lockfile 入库），但排除渲染产物
 # ---------- WorkBuddy 工作区（Agent 内部记忆，不入库） ----------
 .workbuddy/
+
+# ---------- 宣传视频制作工程（只入库成片 docs/promo.mp4） ----------
+docs/promo/

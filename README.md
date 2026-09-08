@@ -149,17 +149,9 @@ python main.py
 
 ![Agnes Studio 30s 宣传片](docs/promo.mp4)
 
-> 若上方播放器未加载，可到 [Releases v1.0.0](https://github.com/q93304989-bit/AgnesStudio/releases/tag/v1.0.0) 的 Assets 里直接播放或下载 `docs/promo.mp4`。
+> 若上方播放器未加载，可到 [Releases v1.0.0](https://github.com/q93304989-bit/AgnesStudio/releases/tag/v1.0.0) 的 Assets 里直接播放或下载 `promo.mp4`。
 
-成片与渲染工程都在 [`docs/promo/`](docs/promo/)，可自行复渲：
-
-```bash
-cd docs/promo
-npm install
-npx remotion render src/index.ts AgnesPromo out/promo.mp4
-```
-
-> 用 [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) 制作：Remotion + 真实界面截图 + 2.5D 运镜 + 节奏卡点。设计说明见 [`docs/promo/DESIGN.md`](docs/promo/DESIGN.md)。
+> 宣传片用 [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)（Remotion）制作；制作工程不入库。
 
 ---
 
