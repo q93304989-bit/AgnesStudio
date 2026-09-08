@@ -145,7 +145,13 @@ python main.py
 
 ## 🎬 宣传视频
 
-30 秒产品宣传片（1920×1080 @ 30fps），成片与渲染工程都在 [`docs/promo/`](docs/promo/)：
+30 秒产品宣传片（1920×1080 @ 30fps）：
+
+![Agnes Studio 30s 宣传片](docs/promo.mp4)
+
+> 若上方播放器未加载，可到 [Releases v1.0.0](https://github.com/q93304989-bit/AgnesStudio/releases/tag/v1.0.0) 的 Assets 里直接播放或下载 `docs/promo.mp4`。
+
+成片与渲染工程都在 [`docs/promo/`](docs/promo/)，可自行复渲：
 
 ```bash
 cd docs/promo
