@@ -47,7 +47,7 @@ class AgnesImageGenerator:
 
         base = os.environ.get("AGNES_BASE_URL", "https://apihub.agnes-ai.com/v1").strip().rstrip("/")
         self.base_url = base + "/images/generations"
-        self.default_model = "agnes-image-2.1-flash"
+        self.default_model = "agnes-image-2.5-flash"
         self.default_size = "1024x768"
 
     def _post_request(self, data: dict) -> str:

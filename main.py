@@ -129,6 +129,7 @@ SIZE_OPTIONS = [
 ]
 
 MODEL_OPTIONS = [
+    "agnes-image-2.5-flash",
     "agnes-image-2.1-flash",
 ]
 
